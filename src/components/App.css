@@ -1,0 +1,10 @@
+body{
+  background-color: rgb(167, 165, 165);
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+.maincontainer{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-width: max-content;
+}

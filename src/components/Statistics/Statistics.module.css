@@ -1,0 +1,25 @@
+.container{
+	display: flex;
+	width: 20rem;
+	justify-content: space-between;
+	letter-spacing: 0.15rem;
+}
+.container > div{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.container > div:nth-child(1) > span{
+	color: greenyellow;
+}
+.container > div:nth-child(2) > span{
+	color: yellow;
+}
+.container > div:nth-child(3) > span{
+	color: red;
+}
+.container > div > span{
+	text-shadow: 0.03rem 0.03rem 0.03rem black;
+	margin-top: 0.3rem;
+	color: blue;
+}
